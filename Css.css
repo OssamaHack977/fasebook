@@ -1,0 +1,204 @@
+body {
+    background-color: #eee;
+  width: 1300px;
+  
+
+
+}
+    
+
+.container {
+      align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    text-align: center;
+    position: relative;
+    left: 15%;
+   top: -90px;
+}
+
+input {
+    font-size: 18px;
+    
+    padding: 14px 16px;
+    direction: rtl;
+    margin-bottom: 10px;
+        width: 330px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+input::placeholder {
+    opacity: 0.7;
+}
+
+.Logins {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 21px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 360px;
+    color: #fff;
+    cursor: pointer;
+    
+    margin-bottom: 20px;
+    font-weight: bold;
+      transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+ -webkit-transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    -moz-transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    -ms-transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    -o-transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+
+}
+.Logins:hover {
+        background-color: #166fe5;
+}
+
+
+.Forget {
+    text-decoration: none;
+}
+.Forget:hover {
+    text-decoration: underline;
+}
+
+.hr {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.createAcount {
+        border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+      transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+ -webkit-transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    -moz-transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    -ms-transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    -o-transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+
+.createAcount:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+span   {
+    top: 35px;
+   position: relative;
+   
+}
+
+.Createa {
+     top: 35px;
+   position: relative;
+    text-decoration: none;
+   color: black;
+   font-weight: 700;
+}
+
+img {
+        height: 106px;
+    left: 65%;
+    top: 160px;
+    position: relative;
+    
+}
+
+._8eso {
+    font-size: 29px;
+    
+    width: 500px;
+    direction: rtl;
+
+    top: 130px;
+    left: 48%;
+   font-weight: normal;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+
+
+
+ul {
+    color: #8a8d91;
+    list-style-type: none;
+  
+    
+}
+ul a {
+    color: #8a8d91;
+    text-decoration: none;
+
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+.LanguagesContainer {
+    background-color: #fff;
+    padding-top: 20px;
+    direction: rtl;
+width: 1350px;
+margin: 0;
+position: relative;
+top: 100px;
+
+}
+
+
+
+
+@media screen and (max-width:411px) {
+     .LanguagesContainer {
+ height: 1400px;
+    }
+  
+}
+
+@media screen and (max-width:411px) {
+    body {
+  zoom: 30%;
+   right: 13%;
+        position: relative;
+    }
+  
+}
+
+@media screen and (max-width:360px) {
+    body {
+        right: 16%;
+        position: relative;
+          zoom: 30%;
+    }
+}
+    @media screen and (max-width:360px) {
+        .LanguagesContainer {
+        height: 1400px;
+            
+        }
+    }
